@@ -1,0 +1,16 @@
+.navbar{
+    color: rgb(24, 19, 13);
+}
+header{
+    position: sticky;
+    top: 0;
+}
+main{
+    height: 800px;
+    background-color: aquamarine;
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(67, 114, 98);
+}
