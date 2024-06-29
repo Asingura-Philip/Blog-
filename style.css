@@ -1,3 +1,17 @@
+h2{
+    font-size: 30px;
+    font-family: cursive;
+    color:teal;
+    font-weight: 600;
+}
+p{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 10;
+}
+body{
+    max-height: 600px;
+}
 .navbar{
     color: rgb(24, 19, 13);
 }
@@ -9,7 +23,31 @@ main{
     height: 800px;
     background-color: aquamarine;
 }
-
+.col-3{
+    overflow: auto;
+    background-color: navajowhite;
+    border-radius: 20px;
+    margin:auto; 
+    vertical-align: top; 
+    padding-top: 10px;
+    padding-bottom: 143px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-height: 300px;
+    
+}
+.col-8{
+    background-color: rgb(201, 157, 91);
+    border-radius: 20px;
+}
+.col-4{
+    background-color: navajowhite;
+    border-radius: 20px;
+}
+.col-7{
+    background-color: rgb(201, 157, 91);
+    border-radius: 20px;
+}
 footer{
     height: 100px;
     background-color: rgb(67, 114, 98);
