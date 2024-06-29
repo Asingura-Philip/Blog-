@@ -21,11 +21,11 @@ header{
 }
 main{
     height: 800px;
-    background-color: aquamarine;
+    background-color: #BB9CC0;
 }
-.col-3{
+.col-4{
     overflow: auto;
-    background-color: navajowhite;
+    background-color: #FED9ED;
     border-radius: 20px;
     margin:auto; 
     vertical-align: top; 
@@ -36,19 +36,19 @@ main{
     max-height: 300px;
     
 }
-.col-8{
-    background-color: rgb(201, 157, 91);
-    border-radius: 20px;
-}
-.col-4{
-    background-color: navajowhite;
-    border-radius: 20px;
-}
 .col-7{
-    background-color: rgb(201, 157, 91);
+    background-color: #FED9ED;
+    border-radius: 20px;
+}
+.col-6{
+    background-color: #FED9ED;
+    border-radius: 20px;
+}
+.col-5{
+    background-color: #FED9ED;
     border-radius: 20px;
 }
 footer{
     height: 100px;
-    background-color: rgb(67, 114, 98);
+    background-color: #E7BCDE;
 }
