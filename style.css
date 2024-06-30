@@ -19,11 +19,11 @@ header{
 }
 main{
     height: 800px;
-    background-color: #BB9CC0;
+    background-color: #D8EFD3;
 }
 .col-6{
     overflow: auto;
-    background-color: #FED9ED;
+    background-color: #D8EFD3;
     border-radius: 20px;
     margin:auto; 
     vertical-align: top; 
@@ -35,7 +35,7 @@ main{
     
 }
 .col-3{
-    background-color: #FED9ED;
+    background-color: #D8EFD3;
     border-radius: 20px;
     
 }
@@ -44,7 +44,7 @@ main{
     z-index: 900;
 }
 .col-12{
-    background-color: #FED9ED;
+    background-color: #D8EFD3;
     border-radius: 20px;
     max-height: 330px;
 
@@ -58,5 +58,5 @@ img{
 }
 footer{
     height: 100px;
-    background-color: #E7BCDE;
+    background-color: #D8EFD3;
 }
