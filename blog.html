@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css" />
   </head>
   <body>
-    <header>
+    <header style="position: sticky;
+    top: 0; z-index: 1000;">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="blog.html">Blogs</a>
@@ -33,7 +34,7 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main style="height: 800px;">
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -104,7 +105,12 @@
         
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        ©
+        <a class="text-white">Asingura-K-Philip</a>
+      </div>
+    </footer>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
   </body>
 </html>

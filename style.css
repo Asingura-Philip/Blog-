@@ -21,7 +21,7 @@ main{
     height: 800px;
     background-color: #BB9CC0;
 }
-.col-5{
+.col-6{
     overflow: auto;
     background-color: #FED9ED;
     border-radius: 20px;
@@ -34,7 +34,7 @@ main{
     max-height: 330px;
     
 }
-.col-7{
+.col-3{
     background-color: #FED9ED;
     border-radius: 20px;
     
