@@ -5,32 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="contact.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Contact</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            <a class="nav-link" href="blog.html">Blogs</a>
-            <a class="nav-link" href="aboutus.html">About</a>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Contact</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="blog.html">Blogs</a>
+              <a class="nav-link" href="aboutus.html">About</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3>Want to chat <br>Here's how to reach out to me</h3>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-5" style="background-color: aliceblue;">
+            <h3>CONTACT ME DIRECTLY THROUGH</h3>
+            <h4>phone</h4>
+            <p>0712345678</p>
+            <hr>
+            <h4>email</h4>
+            <p>trialemail@philip.com</p>
+            <hr>
+            <h4>github</h4>
+            <p>link</p>
+            <hr>
+            <h4>whatsapp</h4>
+            <p>+256 712345678</p>
+            <hr>
+          </div>
+          <div class="col-7" style="background-color:aqua;">
+            <h3>Leave me a message</h3>
+            <form action="">
+              <div class="col">
+                <label for="">FirstName</label>
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+              </div>
+              <div class="col">
+                <label for="">LastName</label>
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Enter message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <input class="btn btn-primary" type="submit" value="Submit">
+
+            </form>
             
           </div>
         </div>
       </div>
-    </nav>
+    </main>
+    <footer></footer>
+    
 
     <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
   </body>

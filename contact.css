@@ -1,0 +1,23 @@
+header{
+    position: sticky;
+    top: 0;
+}
+main{
+    height: 800px;
+    background-color: #BB9CC0;
+}
+.col-12{
+    padding: 50px;
+    align-items: center;
+}
+form{
+    height: 500px;
+    
+}
+.col-7{
+    border-radius: 10px;
+}
+footer{
+    height: 100px;
+    background-color: #E7BCDE;
+}
