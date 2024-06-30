@@ -1,12 +1,15 @@
 h2{
-    font-size: 30px;
-    font-family: cursive;
-    color:teal;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#1A2130;
     font-weight: 600;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p{
     font-size: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: monospace;
     font-weight: 10;
 }
 body{
@@ -42,6 +45,9 @@ main{
 .card-img-top{
     max-height: 90px; 
     z-index: 900;
+}
+.card-text{
+    font-family: monospace;
 }
 .col-12{
     background-color: #D8EFD3;
