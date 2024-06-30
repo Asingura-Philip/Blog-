@@ -12,9 +12,6 @@ p{
 body{
     max-height: 600px;
 }
-.navbar{
-    color: rgb(24, 19, 13);
-}
 header{
     position: sticky;
     top: 0;
@@ -33,7 +30,7 @@ main{
     padding-bottom: 143px;
     padding-left: 10px;
     padding-right: 10px;
-    max-height: 300px;
+    max-height: 330px;
     
 }
 .col-7{
